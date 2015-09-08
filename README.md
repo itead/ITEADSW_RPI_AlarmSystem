@@ -17,19 +17,19 @@ raspbian-wheezy.
 You should extract segnix.zip and focus on the README.md file.
 
 ### Step 2: Install segnix
-You can use "make" ,Then use "make install". 
+You can use "sudo make" ,Then use "sudo make install". 
  
 ### Step 3: Use segnix compile server.c or use directly later server
-You can use "segnix server.c" 
+You can use "sudo segnix server server.c" 
 
 ### Step 4: Use segnix compile AlarmSystem or directly later AlarmSystem
-You can use "segnix AlarmSystem.ino" 
+You can use "sudo segnix AlarmSystem AlarmSystem.ino" 
 
 ### Step 5: Open a window Execute "server"
-You can use "./server".
+You can use "sudo ./server".
 
 ### Step 6: Open the other window Execute "AlarmSystem"
-You can use "./AlarmSystem".
+You can use "sudo ./AlarmSystem".
 
 ### Step 7: Alarm message
  There will be a phone call later. You can pick up the phone and hear the alarm.
