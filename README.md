@@ -17,4 +17,6 @@
 
 	AlarmSystem : AlarmSystem Executable file
 
-	segnix.zip: segnix Installation package
+-	segnix.zip: segnix Installation package
+
+-	README.md 	
