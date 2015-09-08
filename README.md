@@ -12,7 +12,7 @@ README.md file inside the segnix.There are detailed steps to use segnix, I
 believe you will understand! In addition,Raspberry pie System is 2015-02-16-
 raspbian-wheezy.
 
-#How to use it?
+# How to use it?
 ### Step 1: Extract segnix.zip
 You should extract segnix.zip and focus on the README.md file.
 
