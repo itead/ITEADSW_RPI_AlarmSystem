@@ -25,10 +25,10 @@ You can use "sudo segnix server server.c"
 ### Step 4: Use segnix compile AlarmSystem or directly later AlarmSystem
 You can use "sudo segnix AlarmSystem AlarmSystem.ino" 
 
-### Step 5: Open a window Execute "server"
-You can use "sudo ./server".
+### Step 5: Execute "server"
+You can use "sudo ./server &".
 
-### Step 6: Open the other window Execute "AlarmSystem"
+### Step 6: Execute "AlarmSystem"
 You can use "sudo ./AlarmSystem".
 
 ### Step 7: Alarm message

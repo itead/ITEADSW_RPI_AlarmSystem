@@ -97,7 +97,7 @@ void loop(void)
                         while(1)
                         {
                             printf("\nSound an alarm\n\n\n");
-                            execlp("mplayer", "ao","/home/pi/Segnix/AlarmSystem/source/24.mp3", NULL);
+                            execlp("mplayer", "ao","warning1.mp3", NULL);
                         }   
                     }
                     else
@@ -128,7 +128,7 @@ void loop(void)
                                         }
                                         else
                                         {
-                                            execlp("mplayer", "ao","/home/pi/Segnix/AlarmSystem/source/25.mp3", NULL);
+                                            execlp("mplayer", "ao","warning2.mp3", NULL);
                                         }
                                     }
                                 }
@@ -152,7 +152,7 @@ void loop(void)
                                         }
                                         else
                                         {
-                                            execlp("mplayer", "ao","/home/pi/Segnix/AlarmSystem/source/26.mp3", NULL);
+                                            execlp("mplayer", "ao","warning3.mp3", NULL);
                                         }
                                     }
                                 }  
