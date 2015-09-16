@@ -12,6 +12,8 @@ README.md file inside the segnix.There are detailed steps to use segnix, I
 believe you will understand! In addition,Raspberry pie System is 2015-02-16-
 raspbian-wheezy.
 
+
+
 # How to use it?
 ### Step 1: Extract segnix.zip
 You should extract segnix.zip and focus on the README.md file.
@@ -34,6 +36,15 @@ You can use "sudo ./AlarmSystem".
 ### Step 7: Alarm message
  There will be a phone call later. You can pick up the phone and hear the alarm.
 You can press 1 or 2 with another alarm to ring off for a while.
+
+# Warning!
+Frist,you  must install mplayer:
+	
+	sudo apt-get install mplayer
+Second,you must disable serial.
+
+	sudo raspi-config
+   	————>  8 Advanced Options  ————> A8 Serial ————>NO
 
 # Folder description
 -	source：
